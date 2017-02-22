@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 
-<Skein rootNode="node-1002">
+<Skein rootNode="node-1031">
     <generator>Inform Mac Client (Inform version 1.64/6.33/6M62)</generator>
-    <item nodeId="node-1002">
+    <item nodeId="node-1031">
         <command xml:space="preserve">Reliable Wifi</command>
         <result xml:space="preserve">
 
 
-You are part of an organization known as the CIA. Your boss has given you a task: You need to send a top secret document that will aid Taiwan in their quarrel against China. Currently, China is oppressing Taiwan because they want Taiwan to be considered part of China, and Taiwan doesn't. But more importantly, you need reliable wifi to send this document. You don't want it to fall into the wrong hands. Find a reliable wifi connection so you can send the document.
+You are part of an organization known as the CIA. Your boss has given you a task: You need to send a top secret document that will aid the United States in their quarrel against ISIS. Currently, ISIS is attacking the US and they are growing bigger each day. This document has blueprints for a technology that will aid in the fight against the terrorists. But more importantly, you need reliable wifi to send this document. You don't want it to fall into the wrong hands. Find a reliable wifi connection so you can send the document.
 
 Reliable Wifi
 An Interactive Fiction by kstoffer17
-Release 1 / Serial number 170216 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 170221 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 My Office
 A small cubicle, with just enough space to fit a desk and a relatively comfortable chair.
@@ -20,56 +20,59 @@ You can see an oak door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1116"></child>
-            <child nodeId="node-1104"></child>
+        <children><child nodeId="node-1073"></child>
+            <child nodeId="node-1061"></child>
+            <child nodeId="node-1058"></child>
+            <child nodeId="node-1043"></child>
+            <child nodeId="node-1032"></child>
         </children>
     </item>
-    <item nodeId="node-1104">
+    <item nodeId="node-1032">
         <command xml:space="preserve">x me</command>
         <result xml:space="preserve">Without a mirror you don't really know what you look like,  but the navy blue suit you are wearing looks snazzy and can be considered as "buisness casual".
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1106"></child>
+        <children><child nodeId="node-1033"></child>
         </children>
     </item>
-    <item nodeId="node-1106">
+    <item nodeId="node-1033">
         <command xml:space="preserve">x me</command>
         <result xml:space="preserve">Without a mirror you don't really know what you look like,  but the navy blue suit you are wearing looks snazzy and can be considered as "buisness casual".
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1107"></child>
+        <children><child nodeId="node-1034"></child>
         </children>
     </item>
-    <item nodeId="node-1107">
+    <item nodeId="node-1034">
         <command xml:space="preserve">x desk</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1108"></child>
+        <children><child nodeId="node-1035"></child>
         </children>
     </item>
-    <item nodeId="node-1108">
+    <item nodeId="node-1035">
         <command xml:space="preserve">x desk</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1109"></child>
+        <children><child nodeId="node-1036"></child>
         </children>
     </item>
-    <item nodeId="node-1109">
+    <item nodeId="node-1036">
         <command xml:space="preserve">x desk</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1110"></child>
+        <children><child nodeId="node-1037"></child>
         </children>
     </item>
-    <item nodeId="node-1110">
+    <item nodeId="node-1037">
         <command xml:space="preserve">north</command>
         <result xml:space="preserve">
 Hallway
@@ -77,20 +80,20 @@ The long spacious hallway leads to the Elevator. There are a couple pictures pos
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1111"></child>
+        <children><child nodeId="node-1038"></child>
         </children>
     </item>
-    <item nodeId="node-1111">
+    <item nodeId="node-1038">
         <command xml:space="preserve">west</command>
         <result xml:space="preserve">
 Elevator
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1112"></child>
+        <children><child nodeId="node-1039"></child>
         </children>
     </item>
-    <item nodeId="node-1112">
+    <item nodeId="node-1039">
         <command xml:space="preserve">east</command>
         <result xml:space="preserve">
 Hallway
@@ -98,19 +101,19 @@ The long spacious hallway leads to the Elevator. There are a couple pictures pos
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1113"></child>
+        <children><child nodeId="node-1040"></child>
         </children>
     </item>
-    <item nodeId="node-1113">
+    <item nodeId="node-1040">
         <command xml:space="preserve">east</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1114"></child>
+        <children><child nodeId="node-1041"></child>
         </children>
     </item>
-    <item nodeId="node-1114">
+    <item nodeId="node-1041">
         <command xml:space="preserve">south</command>
         <result xml:space="preserve">
 My Office
@@ -120,126 +123,162 @@ You can see an oak door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1115"></child>
+        <children><child nodeId="node-1042"></child>
         </children>
     </item>
-    <item nodeId="node-1115">
+    <item nodeId="node-1042">
         <command xml:space="preserve">x desk</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1116">
+    <item nodeId="node-1043">
         <command xml:space="preserve">x desk</command>
         <result xml:space="preserve">The desk is a rich, dark brown mahogany with a couple drawers. It is cluttered with a sort of well-organized chaos of files, papers, letters, and god-knows-what-else.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1117"></child>
+        <children><child nodeId="node-1044"></child>
         </children>
     </item>
-    <item nodeId="node-1117">
+    <item nodeId="node-1044">
         <command xml:space="preserve">x drawers</command>
-        <result xml:space="preserve">It's a drawer.
+        <result xml:space="preserve">Just an ordinary drawer, but I wonder what's inside.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1120"></child>
+        <children><child nodeId="node-1189"></child>
+            <child nodeId="node-1045"></child>
+            <child nodeId="node-1069"></child>
         </children>
     </item>
-    <item nodeId="node-1120">
-        <command xml:space="preserve">x drawers</command>
-        <result xml:space="preserve">It's a drawer.
+    <item nodeId="node-1069">
+        <command xml:space="preserve">x papers</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1121"></child>
+        <children><child nodeId="node-1070"></child>
         </children>
     </item>
-    <item nodeId="node-1121">
-        <command xml:space="preserve">open drawer</command>
-        <result xml:space="preserve">You open the drawer, revealing a key.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1122"></child>
-        </children>
-    </item>
-    <item nodeId="node-1122">
-        <command xml:space="preserve">open drawers</command>
-        <result xml:space="preserve">That's already open.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1123"></child>
-        </children>
-    </item>
-    <item nodeId="node-1123">
-        <command xml:space="preserve">take key</command>
-        <result xml:space="preserve">Taken.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1124"></child>
-        </children>
-    </item>
-    <item nodeId="node-1124">
+    <item nodeId="node-1070">
         <command xml:space="preserve">x drawer</command>
         <result xml:space="preserve">It's a drawer.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1125"></child>
+        <children><child nodeId="node-1071"></child>
         </children>
     </item>
-    <item nodeId="node-1125">
+    <item nodeId="node-1071">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1072"></child>
+        </children>
+    </item>
+    <item nodeId="node-1072">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1045">
+        <command xml:space="preserve">x drawers</command>
+        <result xml:space="preserve">It's a drawer.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1046"></child>
+        </children>
+    </item>
+    <item nodeId="node-1046">
+        <command xml:space="preserve">open drawer</command>
+        <result xml:space="preserve">You open the drawer, revealing a key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1047"></child>
+        </children>
+    </item>
+    <item nodeId="node-1047">
+        <command xml:space="preserve">open drawers</command>
+        <result xml:space="preserve">That's already open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1048"></child>
+        </children>
+    </item>
+    <item nodeId="node-1048">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1049"></child>
+        </children>
+    </item>
+    <item nodeId="node-1049">
+        <command xml:space="preserve">x drawer</command>
+        <result xml:space="preserve">It's a drawer.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1050"></child>
+        </children>
+    </item>
+    <item nodeId="node-1050">
         <command xml:space="preserve">east</command>
         <result xml:space="preserve">(first opening the oak door)
 It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1126"></child>
+        <children><child nodeId="node-1051"></child>
         </children>
     </item>
-    <item nodeId="node-1126">
+    <item nodeId="node-1051">
         <command xml:space="preserve">open oak door</command>
         <result xml:space="preserve">It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1127"></child>
+        <children><child nodeId="node-1052"></child>
         </children>
     </item>
-    <item nodeId="node-1127">
+    <item nodeId="node-1052">
         <command xml:space="preserve">use key</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1128"></child>
+        <children><child nodeId="node-1053"></child>
         </children>
     </item>
-    <item nodeId="node-1128">
+    <item nodeId="node-1053">
         <command xml:space="preserve">use key on oak door</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1129"></child>
+        <children><child nodeId="node-1054"></child>
         </children>
     </item>
-    <item nodeId="node-1129">
+    <item nodeId="node-1054">
         <command xml:space="preserve">open oak door with key</command>
         <result xml:space="preserve">You unlock the oak door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1130"></child>
+        <children><child nodeId="node-1055"></child>
         </children>
     </item>
-    <item nodeId="node-1130">
+    <item nodeId="node-1055">
         <command xml:space="preserve">east</command>
         <result xml:space="preserve">(first opening the oak door)
 
@@ -247,6 +286,219 @@ Boss's Office
 His chair seems like it is 10 times more comfortable than yours does. But then again, he is your boss.
 
 You can see an oak door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1189">
+        <command xml:space="preserve">open drawers</command>
+        <result xml:space="preserve">You open the drawer, revealing a key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1190"></child>
+        </children>
+    </item>
+    <item nodeId="node-1190">
+        <command xml:space="preserve">take ey</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1191"></child>
+        </children>
+    </item>
+    <item nodeId="node-1191">
+        <command xml:space="preserve">key</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1192"></child>
+        </children>
+    </item>
+    <item nodeId="node-1192">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1193"></child>
+        </children>
+    </item>
+    <item nodeId="node-1193">
+        <command xml:space="preserve">east</command>
+        <result xml:space="preserve">(first opening the oak door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1194"></child>
+        </children>
+    </item>
+    <item nodeId="node-1194">
+        <command xml:space="preserve">open door with key</command>
+        <result xml:space="preserve">You unlock the oak door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1195"></child>
+        </children>
+    </item>
+    <item nodeId="node-1195">
+        <command xml:space="preserve">east</command>
+        <result xml:space="preserve">(first opening the oak door)
+
+Boss's Office
+His chair seems like it is 10 times more comfortable than yours does. But then again, he is your boss.
+
+You can see an oak door and a flashlight here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1196"></child>
+        </children>
+    </item>
+    <item nodeId="node-1196">
+        <command xml:space="preserve">take flashlight</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1197"></child>
+        </children>
+    </item>
+    <item nodeId="node-1197">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a flashlight
+  a key
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1198"></child>
+        </children>
+    </item>
+    <item nodeId="node-1198">
+        <command xml:space="preserve">west</command>
+        <result xml:space="preserve">
+My Office
+A small cubicle, with just enough space to fit a desk and a relatively comfortable chair.
+
+You can see an oak door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1058">
+        <command xml:space="preserve">west</command>
+        <result xml:space="preserve">(first opening the oak door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1059"></child>
+            <child nodeId="node-1065"></child>
+        </children>
+    </item>
+    <item nodeId="node-1065">
+        <command xml:space="preserve">west</command>
+        <result xml:space="preserve">(first opening the oak door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1066"></child>
+        </children>
+    </item>
+    <item nodeId="node-1066">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1059">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1060"></child>
+        </children>
+    </item>
+    <item nodeId="node-1060">
+        <command xml:space="preserve">east</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1061">
+        <command xml:space="preserve">unlock door</command>
+        <result xml:space="preserve">What do you want to unlock the oak door with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1062"></child>
+        </children>
+    </item>
+    <item nodeId="node-1062">
+        <command xml:space="preserve">use key on oak door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1063"></child>
+        </children>
+    </item>
+    <item nodeId="node-1063">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1073">
+        <command xml:space="preserve">east</command>
+        <result xml:space="preserve">(first opening the oak door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1074"></child>
+        </children>
+    </item>
+    <item nodeId="node-1074">
+        <command xml:space="preserve">x esk</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1075"></child>
+        </children>
+    </item>
+    <item nodeId="node-1075">
+        <command xml:space="preserve">x desk</command>
+        <result xml:space="preserve">The desk is a rich, dark brown mahogany with a couple drawers. It is cluttered with a sort of well-organized chaos of files, papers, letters, and god-knows-what-else.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1076"></child>
+        </children>
+    </item>
+    <item nodeId="node-1076">
+        <command xml:space="preserve">x drawers</command>
+        <result xml:space="preserve">It's a drawer.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1077"></child>
+        </children>
+    </item>
+    <item nodeId="node-1077">
+        <command xml:space="preserve">open drawer</command>
+        <result xml:space="preserve">You open the drawer, revealing a key.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
