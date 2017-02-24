@@ -7,7 +7,7 @@
         <result xml:space="preserve">
 
 
-You are part of an organization known as the CIA. Your boss has given you a task: You need to send a top secret document that will aid the United States in their quarrel against ISIS. Currently, ISIS is attacking the US and they are growing bigger each day. This document has blueprints for a technology that will aid in the fight against the terrorists. But more importantly, you need reliable wifi to send this document. You don't want it to fall into the wrong hands. Find a reliable wifi connection so you can send the document.
+You are part of an organization known as the CIA. Your boss has given you a task: You need to send a top secret document that will aid the United States in their quarrel against ISIS. Currently, ISIS is attacking the US and they are growing in numbers. This document has blueprints for a technology that will aid in the fight against the terrorists. But more importantly, you need reliable wifi to send this document. You don't want it to fall into the wrong hands. Find a reliable wifi connection so you can send the document.
 
 Reliable Wifi
 An Interactive Fiction by kstoffer17
@@ -386,6 +386,88 @@ My Office
 A small cubicle, with just enough space to fit a desk and a relatively comfortable chair.
 
 You can see an oak door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1199"></child>
+        </children>
+    </item>
+    <item nodeId="node-1199">
+        <command xml:space="preserve">west</command>
+        <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can't see a thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1200"></child>
+        </children>
+    </item>
+    <item nodeId="node-1200">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1201"></child>
+        </children>
+    </item>
+    <item nodeId="node-1201">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a flashlight
+  a key
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1202"></child>
+        </children>
+    </item>
+    <item nodeId="node-1202">
+        <command xml:space="preserve">use flashlight</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1203"></child>
+        </children>
+    </item>
+    <item nodeId="node-1203">
+        <command xml:space="preserve">turn on flashlight</command>
+        <result xml:space="preserve">It's really bright. But at least it works in dark rooms.
+
+Electric Room
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1204"></child>
+        </children>
+    </item>
+    <item nodeId="node-1204">
+        <command xml:space="preserve">x flashlight</command>
+        <result xml:space="preserve">Oh look! It's a working flashlight. At least you don't have to find the batteries
+
+The flashlight is currently switched on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1223"></child>
+        </children>
+    </item>
+    <item nodeId="node-1223">
+        <command xml:space="preserve">x flashlight</command>
+        <result xml:space="preserve">Oh look! It's a working flashlight. At least you don't have to find the batteries
+
+The flashlight is currently switched on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1224"></child>
+        </children>
+    </item>
+    <item nodeId="node-1224">
+        <command xml:space="preserve">x electric room</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
