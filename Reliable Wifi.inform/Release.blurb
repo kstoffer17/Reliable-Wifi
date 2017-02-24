@@ -10,7 +10,7 @@ release to "/Users/kstoffer17/Desktop/Everything/Inform Projects/Reliable-Wifi/R
 
 ! Blorb instructions
 
-storyfile leafname "Reliable Wifi.gblorb"
+storyfile leafname "Reliable WiFi.gblorb"
 storyfile "/Users/kstoffer17/Desktop/Everything/Inform Projects/Reliable-Wifi/Reliable Wifi.inform/Build/output.ulx" include
 ifiction "/Users/kstoffer17/Desktop/Everything/Inform Projects/Reliable-Wifi/Reliable Wifi.inform/Metadata.iFiction" include
 cover "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
@@ -21,7 +21,7 @@ picture 1 "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover
 placeholder [IFID] = "31AEA203-BC8F-44F6-9645-FC60BBEC56DC"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2017"
-placeholder [TITLE] = "Reliable Wifi"
+placeholder [TITLE] = "Reliable WiFi"
 placeholder [AUTHOR] = "kstoffer17"
 placeholder [BLURB] = "A work of interactive fiction."
 
