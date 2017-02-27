@@ -51,7 +51,7 @@ now the flashlight is unlit.
 
 
 [Elevator]
-Elevator is west of Hallway. "A standard elevator. The elevator door creaks as the it slowly closes. Hopefully this will lead you to the 1st floor." 
+Elevator is west of Hallway. "A standard elevator. The elevator door creaks as the it slowly closes." 
 
 [Outdoor]
 Outdoors is north of Elevator. "The weather could be better, it's a stormy day. The dark clouds cover the sun, and you can sense the rain incoming. You should probably get to some cover."
@@ -99,14 +99,14 @@ now the flashlight is unlit.
 The switch is a device in the Electric Room. It is undescribed. The description of the switch is "Oh look! It's the switch to turn on the light in the room." The switch is unlit. The switch is switched off. 
 
 [Spy in Electric Room]
-After switching on the switch, say "Your previous feelings were right. There is a man looking at you from a distance."
+After switching on the switch, say "Your previous feelings were right. There is a man looking at you from a distance. He says he goes by the name Hal."
 
 Hal is a man in the Electric Room. He is undescribed. 
-Instead of talking to Hal, say "You focus in onto him, searching his body for any signs of a weapon. You catch a glimpse of a pistol hidden. He is most definetly a spy."
+Instead of talking to Hal, say "You focus in onto him, searching his body for any signs of a weapon. You catch a glimpse of a pistol hidden in his right hand, Hal, trying to conceal it. He is most definetly a spy."
 
 Instead of attacking Hal: 
 	if the player carries the gun:
-		say "You quickly raise the gun to aim and shoot with speed. There is nothing in left in your way to resetting the wifi now in order to send the document. You quickly restart the WiFi in the building! Then you rush back to your desk and open your laptop. You send the top secret document. You have successfully defended your country from future attacks.";
+		say "You quickly raise the gun to aim and shoot with speed. There is nothing in left in your way to resetting the wifi now in order to send the document. You quickly reset the WiFi in the building. Then you rush back to your desk and open your laptop. You send the top secret document. You have successfully defended your country from future attacks! Your boss is proud and promotes you.";
 		end the story finally;
 	otherwise:
 		say "Before you can even think about killing the spy, he is suddenly right in front of you. You haven't practiced much hand-to-hand combat, and as soon as you realize it, the lights go out.";
