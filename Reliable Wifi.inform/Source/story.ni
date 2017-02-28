@@ -1,5 +1,5 @@
 "Reliable WiFi" by kstoffer17
-[Play Begins] 
+[Play Begins][AddedReadme]
 
 When play begins:
 	now left hand status line is "Exits: [exit list]";
@@ -124,6 +124,7 @@ Instead of attacking Hal:
 	otherwise:
 		say "Before you can even think about killing the spy, he is suddenly right in front of you. You haven't practiced much hand-to-hand combat, and as soon as you realize it, the lights go out.";
 		end the story finally.
+
 
 		
 [HOW TO WIN THE GAME IN THE SHORTEST AMOUNT OF TURNS:]
