@@ -11,7 +11,7 @@ You are part of an organization known as the CIA. Your boss has given you a task
 
 Reliable WiFi
 An Interactive Fiction by kstoffer17
-Release 1 / Serial number 170226 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 170227 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 My Office
 A small cubicle, with just enough space to fit a desk and a relatively comfortable chair.
@@ -24,10 +24,13 @@ You can see an oak door here.
             <child nodeId="node-1069"></child>
             <child nodeId="node-1064"></child>
             <child nodeId="node-1054"></child>
+            <child nodeId="node-1673"></child>
             <child nodeId="node-1049"></child>
             <child nodeId="node-1470"></child>
+            <child nodeId="node-1616"></child>
             <child nodeId="node-1014"></child>
             <child nodeId="node-1468"></child>
+            <child nodeId="node-1750"></child>
             <child nodeId="node-1003"></child>
         </children>
     </item>
@@ -137,6 +140,224 @@ You can see an oak door here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1750">
+        <command xml:space="preserve">x files</command>
+        <result xml:space="preserve">You have more important matters than to look through the hundreds of papers, files, and letters on your desk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1751"></child>
+        </children>
+    </item>
+    <item nodeId="node-1751">
+        <command xml:space="preserve">x paper</command>
+        <result xml:space="preserve">You have more important matters than to look through the hundreds of papers, files, and letters on your desk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1752"></child>
+        </children>
+    </item>
+    <item nodeId="node-1752">
+        <command xml:space="preserve">x papers</command>
+        <result xml:space="preserve">You have more important matters than to look through the hundreds of papers, files, and letters on your desk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1756"></child>
+        </children>
+    </item>
+    <item nodeId="node-1756">
+        <command xml:space="preserve">x cubicle</command>
+        <result xml:space="preserve">Just an ordinary cubicle, like the hundreds of them in this building.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1761"></child>
+        </children>
+    </item>
+    <item nodeId="node-1761">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening the oak door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1762"></child>
+        </children>
+    </item>
+    <item nodeId="node-1762">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can't see a thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1763"></child>
+        </children>
+    </item>
+    <item nodeId="node-1763">
+        <command xml:space="preserve">x desk</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1764"></child>
+        </children>
+    </item>
+    <item nodeId="node-1764">
+        <command xml:space="preserve">ew</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1765"></child>
+        </children>
+    </item>
+    <item nodeId="node-1765">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+My Office
+A small cubicle, with just enough space to fit a desk and a relatively comfortable chair.
+
+You can see an oak door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1766"></child>
+        </children>
+    </item>
+    <item nodeId="node-1766">
+        <command xml:space="preserve">open drawer</command>
+        <result xml:space="preserve">You open the drawer, revealing a key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1767"></child>
+        </children>
+    </item>
+    <item nodeId="node-1767">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1768"></child>
+        </children>
+    </item>
+    <item nodeId="node-1768">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">(the key)
+Just an ordinary key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1769"></child>
+        </children>
+    </item>
+    <item nodeId="node-1769">
+        <command xml:space="preserve">open door with key</command>
+        <result xml:space="preserve">You unlock the oak door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1770"></child>
+        </children>
+    </item>
+    <item nodeId="node-1770">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening the oak door)
+
+Boss's Office
+His chair seems like it is 10 times more comfortable than yours does. But then again, he is your boss.
+
+You can see an oak door and a flashlight here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1771"></child>
+        </children>
+    </item>
+    <item nodeId="node-1771">
+        <command xml:space="preserve">take flashlight</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1772"></child>
+        </children>
+    </item>
+    <item nodeId="node-1772">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+My Office
+A small cubicle, with just enough space to fit a desk and a relatively comfortable chair.
+
+You can see an oak door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1773"></child>
+        </children>
+    </item>
+    <item nodeId="node-1773">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can't see a thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1774"></child>
+        </children>
+    </item>
+    <item nodeId="node-1774">
+        <command xml:space="preserve">turn on flashlight</command>
+        <result xml:space="preserve">It's really not that bright. The batteries are probably almost dead. But it's better than nothing and at least it works in dark rooms.
+
+Electric Room
+You enter the previously pitch dark room with your flashlight on. But, it feels as if the flashlight could go out any second. Not only this, but you start to get the feeling you aren't the only one in the room. There are walls in this room, so maybe you can find something to help you?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1775"></child>
+        </children>
+    </item>
+    <item nodeId="node-1775">
+        <command xml:space="preserve">turn on light</command>
+        <result xml:space="preserve">Your previous feelings were right! There is a man looking at you from a distance, across you on the other side of the room. You ask him why he is here and he says he goes by the name Hal.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1776"></child>
+        </children>
+    </item>
+    <item nodeId="node-1776">
+        <command xml:space="preserve">talk to hal'</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1777"></child>
+        </children>
+    </item>
+    <item nodeId="node-1777">
+        <command xml:space="preserve">talk to hal</command>
+        <result xml:space="preserve">Isn't it kind of weird to talk to someone who was hiding in a dark room and you just met?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1778"></child>
+        </children>
+    </item>
+    <item nodeId="node-1778">
+        <command xml:space="preserve">x hal</command>
+        <result xml:space="preserve">You focus in onto him, searching his body for any signs of a weapon. You catch a glimpse of a pistol hidden at his side, trying to conceal it. He is most definetly a spy, but I doubt you can fight him with only your fists.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1468">
         <command xml:space="preserve">x dsek</command>
         <result xml:space="preserve">You can't see any such thing.
@@ -155,11 +376,12 @@ You can see an oak door here.
     </item>
     <item nodeId="node-1014">
         <command xml:space="preserve">x desk</command>
-        <result xml:space="preserve">You can't see any such thing.
+        <result xml:space="preserve">The desk is a rich, dark brown mahogany with a couple drawers. It is cluttered with a sort of well-organized chaos of files, papers, letters, and god-knows-what-else. There is also your laptop.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1087"></child>
+        <children><child nodeId="node-1696"></child>
+            <child nodeId="node-1087"></child>
             <child nodeId="node-1464"></child>
             <child nodeId="node-1015"></child>
         </children>
@@ -170,7 +392,8 @@ You can see an oak door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1031"></child>
+        <children><child nodeId="node-1690"></child>
+            <child nodeId="node-1031"></child>
             <child nodeId="node-1020"></child>
             <child nodeId="node-1016"></child>
         </children>
@@ -490,6 +713,54 @@ The flashlight is currently switched on.
     <item nodeId="node-1048">
         <command xml:space="preserve">x electric room</command>
         <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1690">
+        <command xml:space="preserve">open drawer</command>
+        <result xml:space="preserve">You open the drawer, revealing a key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1691"></child>
+        </children>
+    </item>
+    <item nodeId="node-1691">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1692"></child>
+        </children>
+    </item>
+    <item nodeId="node-1692">
+        <command xml:space="preserve">open door with key</command>
+        <result xml:space="preserve">You unlock the oak door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1693"></child>
+        </children>
+    </item>
+    <item nodeId="node-1693">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening the oak door)
+
+Boss's Office
+His chair seems like it is 10 times more comfortable than yours does. But then again, he is your boss.
+
+You can see an oak door and a flashlight here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1694"></child>
+        </children>
+    </item>
+    <item nodeId="node-1694">
+        <command xml:space="preserve">take flashlight</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2531,6 +2802,815 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1696">
+        <command xml:space="preserve">open drawers</command>
+        <result xml:space="preserve">You open the drawer, revealing a key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1697"></child>
+        </children>
+    </item>
+    <item nodeId="node-1697">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1698"></child>
+        </children>
+    </item>
+    <item nodeId="node-1698">
+        <command xml:space="preserve">open door with key</command>
+        <result xml:space="preserve">You unlock the oak door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1699"></child>
+        </children>
+    </item>
+    <item nodeId="node-1699">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening the oak door)
+
+Boss's Office
+His chair seems like it is 10 times more comfortable than yours does. But then again, he is your boss.
+
+You can see an oak door and a flashlight here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1700"></child>
+        </children>
+    </item>
+    <item nodeId="node-1700">
+        <command xml:space="preserve">take flashlight</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1701"></child>
+        </children>
+    </item>
+    <item nodeId="node-1701">
+        <command xml:space="preserve">x chair</command>
+        <result xml:space="preserve">A 1956 Eames Lounge chair, one of the most comfortable chairs you have ever seen. But considering you don't even have clearance to be in this room, you should probably go soon.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1702"></child>
+        </children>
+    </item>
+    <item nodeId="node-1702">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+My Office
+A small cubicle, with just enough space to fit a desk and a relatively comfortable chair.
+
+You can see an oak door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1703"></child>
+        </children>
+    </item>
+    <item nodeId="node-1703">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can't see a thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1704"></child>
+        </children>
+    </item>
+    <item nodeId="node-1704">
+        <command xml:space="preserve">turn on flashlight</command>
+        <result xml:space="preserve">It's really not that bright. The batteries are probably almost dead. But it's better than nothing and at least it works in dark rooms.
+
+Electric Room
+You enter the previously pitch dark room with your flashlight on. But, it feels as if the flashlight could go out any second. Not only this, but you start to get the feeling you aren't the only one in the room. There are walls in this room, so maybe you can find something to help you?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1705"></child>
+        </children>
+    </item>
+    <item nodeId="node-1705">
+        <command xml:space="preserve">turn on light</command>
+        <result xml:space="preserve">Your previous feelings were right! There is a man looking at you from a distance, across you on the other side of the room. You ask him why he is here and he says he goes by the name Hal.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1706"></child>
+        </children>
+    </item>
+    <item nodeId="node-1706">
+        <command xml:space="preserve">x hal</command>
+        <result xml:space="preserve">You focus in onto him, searching his body for any signs of a weapon. You catch a glimpse of a pistol hidden in his right hand, Hal, trying to conceal it. He is most definetly a spy, but I doubt you can fight him with only your fists.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1707"></child>
+        </children>
+    </item>
+    <item nodeId="node-1707">
+        <command xml:space="preserve">x hal</command>
+        <result xml:space="preserve">You focus in onto him, searching his body for any signs of a weapon. You catch a glimpse of a pistol hidden in his right hand, Hal, trying to conceal it. He is most definetly a spy, but I doubt you can fight him with only your fists.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1708"></child>
+        </children>
+    </item>
+    <item nodeId="node-1708">
+        <command xml:space="preserve">talk to hal</command>
+        <result xml:space="preserve">Isn't it kind of weird to talk to someone who was hiding in a dark room and you just met?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1723"></child>
+        </children>
+    </item>
+    <item nodeId="node-1723">
+        <command xml:space="preserve">x hal</command>
+        <result xml:space="preserve">You focus in onto him, searching his body for any signs of a weapon. You catch a glimpse of a pistol hidden in his right hand, Hal, trying to conceal it. He is most definetly a spy, but I doubt you can fight him with only your fists.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1724"></child>
+        </children>
+    </item>
+    <item nodeId="node-1724">
+        <command xml:space="preserve">talk to hal</command>
+        <result xml:space="preserve">Isn't it kind of weird to talk to someone who was hiding in a dark room and you just met?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1725"></child>
+        </children>
+    </item>
+    <item nodeId="node-1725">
+        <command xml:space="preserve">talk to hal</command>
+        <result xml:space="preserve">Isn't it kind of weird to talk to someone who was hiding in a dark room and you just met?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1743"></child>
+        </children>
+    </item>
+    <item nodeId="node-1743">
+        <command xml:space="preserve">talk to hal</command>
+        <result xml:space="preserve">Isn't it kind of weird to talk to someone who was hiding in a dark room and you just met?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1744"></child>
+        </children>
+    </item>
+    <item nodeId="node-1744">
+        <command xml:space="preserve">x hal</command>
+        <result xml:space="preserve">You focus in onto him, searching his body for any signs of a weapon. You catch a glimpse of a pistol hidden in his right hand, Hal, trying to conceal it. He is most definetly a spy, but I doubt you can fight him with only your fists.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1745"></child>
+        </children>
+    </item>
+    <item nodeId="node-1745">
+        <command xml:space="preserve">attack hal</command>
+        <result xml:space="preserve">Before you can even think about killing the spy, he is suddenly right in front of you. You haven't practiced much hand-to-hand combat, and as soon as you realize it, the lights go out.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1746"></child>
+        </children>
+    </item>
+    <item nodeId="node-1746">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+You are part of an organization known as the CIA. Your boss has given you a task: You need to send a top secret document that will aid the United States in their quarrel against ISIS. Currently, ISIS is attacking the US and they are growing in numbers. This document has blueprints for a technology that will aid in the fight against the terrorists. But more importantly, you need reliable WiFi to send this document. You don't want it to fall into the wrong hands. Find a reliable WiFi connection so you can send the document.
+
+Reliable WiFi
+An Interactive Fiction by kstoffer17
+Release 1 / Serial number 170227 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+My Office
+A small cubicle, with just enough space to fit a desk and a relatively comfortable chair.
+
+You can see an oak door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1747"></child>
+        </children>
+    </item>
+    <item nodeId="node-1747">
+        <command xml:space="preserve">x cubicle</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1748"></child>
+        </children>
+    </item>
+    <item nodeId="node-1748">
+        <command xml:space="preserve">x files</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1749"></child>
+        </children>
+    </item>
+    <item nodeId="node-1749">
+        <command xml:space="preserve">x files</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1616">
+        <command xml:space="preserve">x cubicle</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1617"></child>
+        </children>
+    </item>
+    <item nodeId="node-1617">
+        <command xml:space="preserve">x desk</command>
+        <result xml:space="preserve">The desk is a rich, dark brown mahogany with a couple drawers. It is cluttered with a sort of well-organized chaos of files, papers, letters, and god-knows-what-else. There is also your laptop.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1618"></child>
+        </children>
+    </item>
+    <item nodeId="node-1618">
+        <command xml:space="preserve">x laptop</command>
+        <result xml:space="preserve">You check the WiFi bars at the top right. Sadly, there is no WiFi connection where you are right now. I wonder why the WiFi is down...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1619"></child>
+        </children>
+    </item>
+    <item nodeId="node-1619">
+        <command xml:space="preserve">take laptop</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1620"></child>
+        </children>
+    </item>
+    <item nodeId="node-1620">
+        <command xml:space="preserve">x chair</command>
+        <result xml:space="preserve">It looks pretty comfortable, but you have more important things to do than to sit around.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1621"></child>
+        </children>
+    </item>
+    <item nodeId="node-1621">
+        <command xml:space="preserve">x files</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1622"></child>
+        </children>
+    </item>
+    <item nodeId="node-1622">
+        <command xml:space="preserve">x papers</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1623"></child>
+        </children>
+    </item>
+    <item nodeId="node-1623">
+        <command xml:space="preserve">x letters</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1624"></child>
+        </children>
+    </item>
+    <item nodeId="node-1624">
+        <command xml:space="preserve">x drawers</command>
+        <result xml:space="preserve">Just an ordinary drawer, but I wonder what's inside.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1625"></child>
+        </children>
+    </item>
+    <item nodeId="node-1625">
+        <command xml:space="preserve">open drawer</command>
+        <result xml:space="preserve">You open the drawer, revealing a key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1626"></child>
+        </children>
+    </item>
+    <item nodeId="node-1626">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1627"></child>
+        </children>
+    </item>
+    <item nodeId="node-1627">
+        <command xml:space="preserve">x oak door</command>
+        <result xml:space="preserve">You need a key
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1628"></child>
+        </children>
+    </item>
+    <item nodeId="node-1628">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening the oak door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1629"></child>
+        </children>
+    </item>
+    <item nodeId="node-1629">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Hallway
+The long spacious hallway leads to the Elevator. There are a couple pictures posted on the walls.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1630"></child>
+        </children>
+    </item>
+    <item nodeId="node-1630">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+My Office
+A small cubicle, with just enough space to fit a desk and a relatively comfortable chair.
+
+You can see an oak door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1631"></child>
+        </children>
+    </item>
+    <item nodeId="node-1631">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can't see a thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1632"></child>
+        </children>
+    </item>
+    <item nodeId="node-1632">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+My Office
+A small cubicle, with just enough space to fit a desk and a relatively comfortable chair.
+
+You can see an oak door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1633"></child>
+        </children>
+    </item>
+    <item nodeId="node-1633">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Hallway
+The long spacious hallway leads to the Elevator. There are a couple pictures posted on the walls.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1634"></child>
+        </children>
+    </item>
+    <item nodeId="node-1634">
+        <command xml:space="preserve">x elevator</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1635"></child>
+        </children>
+    </item>
+    <item nodeId="node-1635">
+        <command xml:space="preserve">x pictures</command>
+        <result xml:space="preserve">Someone enjoys Picaso's paintings, especially the Starry Night.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1636"></child>
+        </children>
+    </item>
+    <item nodeId="node-1636">
+        <command xml:space="preserve">take pictures</command>
+        <result xml:space="preserve">That's hardly portable.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1637"></child>
+        </children>
+    </item>
+    <item nodeId="node-1637">
+        <command xml:space="preserve">x starry night</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1638"></child>
+        </children>
+    </item>
+    <item nodeId="node-1638">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+My Office
+A small cubicle, with just enough space to fit a desk and a relatively comfortable chair.
+
+You can see an oak door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1639"></child>
+        </children>
+    </item>
+    <item nodeId="node-1639">
+        <command xml:space="preserve">unlock oak door</command>
+        <result xml:space="preserve">What do you want to unlock the oak door with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1640"></child>
+        </children>
+    </item>
+    <item nodeId="node-1640">
+        <command xml:space="preserve">key</command>
+        <result xml:space="preserve">You unlock the oak door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1641"></child>
+        </children>
+    </item>
+    <item nodeId="node-1641">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can't see a thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1642"></child>
+        </children>
+    </item>
+    <item nodeId="node-1642">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+My Office
+A small cubicle, with just enough space to fit a desk and a relatively comfortable chair.
+
+You can see an oak door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1643"></child>
+        </children>
+    </item>
+    <item nodeId="node-1643">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening the oak door)
+
+Boss's Office
+His chair seems like it is 10 times more comfortable than yours does. But then again, he is your boss.
+
+You can see an oak door and a flashlight here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1644"></child>
+        </children>
+    </item>
+    <item nodeId="node-1644">
+        <command xml:space="preserve">x flashlight</command>
+        <result xml:space="preserve">Oh look! It's a working flashlight. At least you don't have to find the batteries.
+
+The flashlight is currently switched off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1645"></child>
+        </children>
+    </item>
+    <item nodeId="node-1645">
+        <command xml:space="preserve">take flashlight</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1646"></child>
+        </children>
+    </item>
+    <item nodeId="node-1646">
+        <command xml:space="preserve">x chair</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1647"></child>
+        </children>
+    </item>
+    <item nodeId="node-1647">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+My Office
+A small cubicle, with just enough space to fit a desk and a relatively comfortable chair.
+
+You can see an oak door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1648"></child>
+        </children>
+    </item>
+    <item nodeId="node-1648">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can't see a thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1649"></child>
+        </children>
+    </item>
+    <item nodeId="node-1649">
+        <command xml:space="preserve">turn on flash light</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1650"></child>
+        </children>
+    </item>
+    <item nodeId="node-1650">
+        <command xml:space="preserve">turn on flashlight</command>
+        <result xml:space="preserve">It's really not that bright. The batteries are probably almost dead. But it's better than nothing and at least it works in dark rooms.
+
+Electric Room
+You enter the previously pitch dark room with your flashlight on. It feels as if the flashlight could go out any second. You start to get the feeling you aren't the only one in the room. There are walls in this place so maybe there's a light switch?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1651"></child>
+        </children>
+    </item>
+    <item nodeId="node-1651">
+        <command xml:space="preserve">turn on light switch</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1652"></child>
+        </children>
+    </item>
+    <item nodeId="node-1652">
+        <command xml:space="preserve">x light switch</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1653"></child>
+        </children>
+    </item>
+    <item nodeId="node-1653">
+        <command xml:space="preserve">x walls</command>
+        <result xml:space="preserve">You slowly walk to the closest wall with your flashlight. While squinting, you think you can make out switch to turn on the light.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1654"></child>
+        </children>
+    </item>
+    <item nodeId="node-1654">
+        <command xml:space="preserve">turn on light</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1655"></child>
+        </children>
+    </item>
+    <item nodeId="node-1655">
+        <command xml:space="preserve">turn on switch</command>
+        <result xml:space="preserve">You turn on the switch, lighting up the room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1656"></child>
+        </children>
+    </item>
+    <item nodeId="node-1656">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Electric Room
+You enter the previously pitch dark room with your flashlight on. It feels as if the flashlight could go out any second. You start to get the feeling you aren't the only one in the room. There are walls in this place so maybe there's a light switch?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1657"></child>
+        </children>
+    </item>
+    <item nodeId="node-1657">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+My Office
+A small cubicle, with just enough space to fit a desk and a relatively comfortable chair.
+
+You can see an oak door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1658"></child>
+        </children>
+    </item>
+    <item nodeId="node-1658">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Electric Room
+You enter the previously pitch dark room with your flashlight on. It feels as if the flashlight could go out any second. You start to get the feeling you aren't the only one in the room. There are walls in this place so maybe there's a light switch?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1659"></child>
+        </children>
+    </item>
+    <item nodeId="node-1659">
+        <command xml:space="preserve">turn on switch</command>
+        <result xml:space="preserve">That's already on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1660"></child>
+        </children>
+    </item>
+    <item nodeId="node-1660">
+        <command xml:space="preserve">turn off switch</command>
+        <result xml:space="preserve">You turn off the lights.
+
+It is now pitch dark in here!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1661"></child>
+        </children>
+    </item>
+    <item nodeId="node-1661">
+        <command xml:space="preserve">turn on switch</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1662"></child>
+        </children>
+    </item>
+    <item nodeId="node-1662">
+        <command xml:space="preserve">x walls</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1663"></child>
+        </children>
+    </item>
+    <item nodeId="node-1663">
+        <command xml:space="preserve">x walls</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1664"></child>
+        </children>
+    </item>
+    <item nodeId="node-1664">
+        <command xml:space="preserve">ew</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1665"></child>
+        </children>
+    </item>
+    <item nodeId="node-1665">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1666"></child>
+        </children>
+    </item>
+    <item nodeId="node-1666">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+My Office
+A small cubicle, with just enough space to fit a desk and a relatively comfortable chair.
+
+You can see an oak door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1667"></child>
+        </children>
+    </item>
+    <item nodeId="node-1667">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can't see a thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1668"></child>
+        </children>
+    </item>
+    <item nodeId="node-1668">
+        <command xml:space="preserve">turn on flashlight</command>
+        <result xml:space="preserve">That's already on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1669"></child>
+        </children>
+    </item>
+    <item nodeId="node-1669">
+        <command xml:space="preserve">turn off flashlight</command>
+        <result xml:space="preserve">You switch off the flashlight.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1670"></child>
+        </children>
+    </item>
+    <item nodeId="node-1670">
+        <command xml:space="preserve">turn on flashlight</command>
+        <result xml:space="preserve">It's really not that bright. The batteries are probably almost dead. But it's better than nothing and at least it works in dark rooms.
+
+Electric Room
+You enter the previously pitch dark room with your flashlight on. It feels as if the flashlight could go out any second. You start to get the feeling you aren't the only one in the room. There are walls in this place so maybe there's a light switch?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1671"></child>
+        </children>
+    </item>
+    <item nodeId="node-1671">
+        <command xml:space="preserve">x walls</command>
+        <result xml:space="preserve">You slowly walk to the closest wall with your flashlight. While squinting, you think you can make out switch to turn on the light.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1672"></child>
+        </children>
+    </item>
+    <item nodeId="node-1672">
+        <command xml:space="preserve">turn on switch</command>
+        <result xml:space="preserve">You turn on the switch, lighting up the room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1470">
         <command xml:space="preserve">x  desk</command>
         <result xml:space="preserve">The desk is a rich, dark brown mahogany with a couple drawers. It is cluttered with a sort of well-organized chaos of files, papers, letters, and god-knows-what-else. There is also your laptop.
@@ -2990,6 +4070,159 @@ It seems to be locked.
     <item nodeId="node-1053">
         <command xml:space="preserve">east</command>
         <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1673">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can't see a thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1674"></child>
+        </children>
+    </item>
+    <item nodeId="node-1674">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+My Office
+A small cubicle, with just enough space to fit a desk and a relatively comfortable chair.
+
+You can see an oak door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1675"></child>
+        </children>
+    </item>
+    <item nodeId="node-1675">
+        <command xml:space="preserve">x desk</command>
+        <result xml:space="preserve">The desk is a rich, dark brown mahogany with a couple drawers. It is cluttered with a sort of well-organized chaos of files, papers, letters, and god-knows-what-else. There is also your laptop.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1676"></child>
+        </children>
+    </item>
+    <item nodeId="node-1676">
+        <command xml:space="preserve">x drawer</command>
+        <result xml:space="preserve">Just an ordinary drawer, but I wonder what's inside.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1677"></child>
+        </children>
+    </item>
+    <item nodeId="node-1677">
+        <command xml:space="preserve">open drawer</command>
+        <result xml:space="preserve">You open the drawer, revealing a key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1678"></child>
+        </children>
+    </item>
+    <item nodeId="node-1678">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1679"></child>
+        </children>
+    </item>
+    <item nodeId="node-1679">
+        <command xml:space="preserve">open door with key</command>
+        <result xml:space="preserve">You unlock the oak door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1680"></child>
+        </children>
+    </item>
+    <item nodeId="node-1680">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening the oak door)
+
+Boss's Office
+His chair seems like it is 10 times more comfortable than yours does. But then again, he is your boss.
+
+You can see an oak door and a flashlight here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1681"></child>
+        </children>
+    </item>
+    <item nodeId="node-1681">
+        <command xml:space="preserve">take flashlight</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1682"></child>
+        </children>
+    </item>
+    <item nodeId="node-1682">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+My Office
+A small cubicle, with just enough space to fit a desk and a relatively comfortable chair.
+
+You can see an oak door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1683"></child>
+        </children>
+    </item>
+    <item nodeId="node-1683">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can't see a thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1684"></child>
+        </children>
+    </item>
+    <item nodeId="node-1684">
+        <command xml:space="preserve">turn on light</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1685"></child>
+        </children>
+    </item>
+    <item nodeId="node-1685">
+        <command xml:space="preserve">turn on flashlight</command>
+        <result xml:space="preserve">It's really not that bright. The batteries are probably almost dead. But it's better than nothing and at least it works in dark rooms.
+
+Electric Room
+You enter the previously pitch dark room with your flashlight on. It feels as if the flashlight could go out any second. You start to get the feeling you aren't the only one in the room. There are walls in this room, so maybe you can find something to help you?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1686"></child>
+        </children>
+    </item>
+    <item nodeId="node-1686">
+        <command xml:space="preserve">x walls</command>
+        <result xml:space="preserve">You slowly walk to the closest wall with your flashlight. While squinting, you think you can make out switch to turn on the light.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1687"></child>
+        </children>
+    </item>
+    <item nodeId="node-1687">
+        <command xml:space="preserve">turn on switch</command>
+        <result xml:space="preserve">You turn on the switch, lighting up the room.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

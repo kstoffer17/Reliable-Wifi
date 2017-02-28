@@ -22,8 +22,7 @@ Talking to is an action applying to one visible thing.
 Understand "talk to [someone]" as talking. 
 
 [My Office]
-My Office is a room. "A small cubicle, with just enough space to fit a desk and a relatively comfortable chair." The desk is scenery in My Office. The description of the desk is "The desk is a rich, dark brown mahogany with a couple drawers. It is cluttered with a sort of well-organized chaos of files, papers, letters, and god-knows-what-else. There is also your laptop." The drawer is part of the desk. The drawer is fixed in place. It is a closed, openable container. The description of the drawer is "Just an ordinary drawer, but I wonder what's inside." Understand "drawers" as the drawer. The chair is scenery in My Office. The description of the chair is "It looks pretty comfortable, but you have more important things to do than to sit around." The laptop is a thing. It is undescribed. It is on top of the desk. The description of the laptop is "You check the WiFi bars at the top right. Sadly, there is no WiFi connection where you are right now. I wonder why the WiFi is down...". Understand "computer" as the laptop. Understand "comfortable chair" as the chair. 
-
+My Office is a room. "A small cubicle, with just enough space to fit a desk and a relatively comfortable chair." The desk is scenery in My Office. The description of the desk is "The desk is a rich, dark brown mahogany with a couple drawers. It is cluttered with a sort of well-organized chaos of files, papers, letters, and god-knows-what-else. There is also your laptop." The drawer is part of the desk. The drawer is fixed in place. It is a closed, openable container. The description of the drawer is "Just an ordinary drawer, but I wonder what's inside." Understand "drawers" as the drawer. The laptop is a thing. It is undescribed. It is on top of the desk. The description of the laptop is "You check the WiFi bars at the top right. Sadly, there is no WiFi connection where you are right now. I wonder why the WiFi is down...". Understand "computer" as the laptop. Understand "comfortable chair" as the chair. The cubicle is scenery in My Office. The description of the cubicle is "Just an ordinary cubicle, like the hundreds of them in this building." The files is scenery in My Office. The description of the files is "You have more important matters than to look through the hundreds of papers, files, and letters on your desk." Understand "papers", "paper", "letter", and "letters" as files. 
 
 [Key]
 The key is a thing. The key is inside the drawer. The description of the key is "Just an ordinary key." The key unlocks the oak door. 
@@ -37,8 +36,20 @@ Hallway is north of My Office. "The long spacious hallway leads to the Elevator.
 [Boss's Office]
 Boss's Office is east of the oak door. "His chair seems like it is 10 times more comfortable than yours does. But then again, he is your boss." The flashlight is here. 
 
+[Chair in Boss's Office and My Office]
+The chair is a thing. It is scenery. 
+
+Instead of examining the chair:
+	if the chair is in the My Office, say "It looks pretty comfortable, but you have more important things to do than to sit around.";
+	if the chair is in the Boss's Office, say "A 1956 Eames Lounge chair, one of the most comfortable chairs you have ever seen. But considering you don't even have clearance to be in this room, you should probably go soon."
+	
+An every turn rule:
+	if the player is in the My Office, move chair to the My Office;
+	if the player is in the Boss's Office, move chair to the Boss's Office.
+
+
 [Flashlight]
-Flashlight is a device. The description of the flashlight is "Oh look! It's a working flashlight. At least you don't have to find the batteries." The flashlight is unlit. The flashlight is switched off. 
+Flashlight is a device. The description of the flashlight is "Oh look! It's a working flashlight, but it's really not that bright. The batteries are probably almost dead. But it's better than nothing and at least it works in dark rooms." The flashlight is unlit. The flashlight is switched off. 
 
 [Rule for when flashlight is lit]
 After switching on the flashlight:
@@ -63,17 +74,15 @@ Instead of examining the WiFi:
 	if the WiFi is in the McDonalds, say "You open your laptop and turn it on. You go straight to google chrome, and accept the terms and conditions. You paitently wait as the WiFi is busy connecting. Shucks...The WiFi sucks here, it's only one bar. After all, it is McDonald's WiFi. You are going to have to find better WiFi to send the document.";
 	if the WiFi is in the Starbucks, say "You open your laptop, and accept the terms and conditions for the WiFi. Then, you wait, hoping perhaps you will get at least 3 or 4 bars. ....Rats! The WiFi is only 2 bars. But, while examining the WiFi on your computer, you catch the glimpse of what seems like to be a secret door towards the back of the place, near the bathrooms. You walk to the secret door and open it."
 
-
 An every turn rule:
 	if the player is in the McDonalds, move WiFi to the McDonalds;
 	if the player is in the Starbucks, move Wifi to the Starbucks.
 
-
 [McDonalds]
-McDonalds is north of Outdoors. "As you enter the restaurant, the smell of grease fills the air. A whole new world of diabetes and clogged heart arteries is here. Welcome to McDonald's an employee says. There is also free Wifi here." 
+McDonalds is north of Outdoors. "As you enter the restaurant, the smell of grease fills the air. A whole new world of diabetes and clogged heart arteries is here. 'Welcome to McDonald's' an employee says. There is also free Wifi here." 
 
 [Starbucks]
-Starbucks is west of Outdoors. "The smell of freshly brewed roasted coffee fills the air. There is a relatively long waiting line, but it's worth it. You don't want to be that one person who uses the wifi without purchasing anything."  
+Starbucks is west of Outdoors. "The smell of freshly brewed roasted coffee fills the air. But there is a relatively long waiting line. There is also free WiFi here." The description of coffee is "You have to buy that first, but you don't have time to wait in the line." The description of the line is "You don't have time to wait in this line." Understand "waiting line" as the line. 
 
 [Gun]
 The gun is thing in Starbucks. It is undescribed. The description of the gun is "A Beretta 92 handgun."
@@ -83,7 +92,7 @@ Instead of taking the gun for the first time:
 		say "You grab the gun and pull the magazine out. 15 rounds of 9mm. You take it with you and fix it to the right side of your waist for easy access, while covering it with your CIA weather windbreaker for concealment. You don't want other people noticing you carrying around a handgun."
 		
 [Electric Room]
-The Electric Room is a dark room. The Electric Room is west of My Office. The description of the Electric Room is "You enter the previously pitch dark room with your flashlight on. It feels as if the flashlight could go out any second. You start to get the feeling you aren't the only one in the room. There are walls in this place so maybe there's a light switch?" The walls is scenery in the Electric Room. The description of the walls is "You slowly walk to the closest wall with your flashlight. While squinting, you think you can make out switch to turn on the light." Understand "wall" as the walls. 
+The Electric Room is a dark room. The Electric Room is west of My Office. The description of the Electric Room is "You enter the previously pitch dark room with your flashlight on. But, it feels as if the flashlight could go out any second. Not only this, but you start to get the feeling you aren't the only one in the room. There are walls in this room, so maybe you can find something to help you?" The walls is scenery in the Electric Room. The description of the walls is "You slowly walk to the closest wall with your flashlight. While squinting, you think you can make out switch to turn on the light." Understand "wall" as the walls. 
 
 [Rule for Lever]
 After switching on the switch:
@@ -96,13 +105,17 @@ now the flashlight is unlit.
 
 
 [Lever]
-The switch is a device in the Electric Room. It is undescribed. The description of the switch is "Oh look! It's the switch to turn on the light in the room." The switch is unlit. The switch is switched off. 
+The switch is a device in the Electric Room. It is undescribed. The description of the switch is "Oh look! It's the switch to turn on the light in the room." The switch is unlit. The switch is switched off. Understand "light" as the switch. 
 
 [Spy in Electric Room]
-After switching on the switch, say "Your previous feelings were right. There is a man looking at you from a distance. He says he goes by the name Hal."
+Instead of switching on the switch:
+	say "Your previous feelings were right! There is a man looking at you from a distance, across you on the other side of the room. You ask him why he is here and he says he goes by the name Hal.";
+	now the switch is lit.
 
-Hal is a man in the Electric Room. He is undescribed. 
-Instead of talking to Hal, say "You focus in onto him, searching his body for any signs of a weapon. You catch a glimpse of a pistol hidden in his right hand, Hal, trying to conceal it. He is most definetly a spy."
+Hal is a man in the Electric Room. He is undescribed. The description of Hal is "You focus in onto him, searching his body for any signs of a weapon. You catch a glimpse of a pistol hidden at his side, trying to conceal it. He is most definetly a spy, but I doubt you can fight him with only your fists."
+
+Instead of talking to Hal: 
+	say "Isn't it kind of weird to talk to someone who was hiding in a dark room and you just met?"
 
 Instead of attacking Hal: 
 	if the player carries the gun:
@@ -117,8 +130,9 @@ Instead of attacking Hal:
 [examine desk]
 [take key]
 [take laptop]
-[east]
+[examine laptop]
 [use key to unlock door]
+[east]
 [take flashlight]
 [west]
 [north]
@@ -133,5 +147,6 @@ Instead of attacking Hal:
 [south]
 [west]
 [use flashlight]
-[kill NPC spy]
+[turn on light]
+[attack NPC spy]
 [win game!]
