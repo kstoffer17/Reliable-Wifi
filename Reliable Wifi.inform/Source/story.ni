@@ -30,7 +30,7 @@ The key is a thing. The key is inside the drawer. The description of the key is 
 The oak door is a closed door. It is locked and lockable. The oak door is west of Boss's Office and east of My Office. The description of the oak door is "You need a key". 
 
 [Hallway]
-Hallway is north of My Office. "The long spacious hallway leads to the Elevator. There are a couple pictures posted on the walls." The pictures is scenery in the Hallway. The description of the pictures is "Someone enjoys Picaso's paintings, especially the Starry Night."
+Hallway is north of My Office. "The long spacious hallway leads to the Elevator. There are a couple pictures posted on the walls." The pictures is scenery in the Hallway. The description of the pictures is "Someone enjoys Vincent Van Gogh's paintings, especially the Starry Night. But you have more important matters than to stare at pictures."
 
 
 [Boss's Office]
