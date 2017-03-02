@@ -72,7 +72,7 @@ The WiFi is a thing. It is scenery.
 
 Instead of examining the WiFi:
 	if the WiFi is in the McDonalds, say "You open your laptop and turn it on. You go straight to google chrome, and accept the terms and conditions. You paitently wait as the WiFi is busy connecting. Shucks...The WiFi sucks here, it's only one bar. After all, it is McDonald's WiFi. You are going to have to find better WiFi to send the document.";
-	if the WiFi is in the Starbucks, say "You open your laptop, and accept the terms and conditions for the WiFi. Then, you wait, hoping perhaps you will get at least 3 or 4 bars. ....Rats! The WiFi is only 2 bars. But, while examining the WiFi on your computer, you catch the glimpse of what seems like to be a secret door towards the back of the place, near the bathrooms. You walk to the secret door and open it."
+	if the WiFi is in the Starbucks, say "You open your laptop, and accept the terms and conditions for the WiFi. Then, you wait, hoping perhaps you will get at least 3 or 4 bars. ....Rats! The WiFi is only 2 bars. But, while examining the WiFi on your computer, you catch the glimpse of what seems like to be a secret door towards the back of the place, near the bathrooms. You walk to the secret door and open it, revealing a gun."
 
 An every turn rule:
 	if the player is in the McDonalds, move WiFi to the McDonalds;
